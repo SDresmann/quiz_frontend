@@ -99,7 +99,7 @@ Rule: Closed figures losing their sides and open figures gaining their sides.`, 
 
 const QUESTIONS = [...SECTION_2_QUESTIONS, ...SECTION_3_QUESTIONS, ...SECTION_4_QUESTIONS];
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://quiz-backend-ympb.onrender.com';
 const QUIZ_API = `${API_BASE}/api/quiz`;
 const LS_KEY = 'kable_quiz_state_v2';
 
