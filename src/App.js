@@ -307,11 +307,11 @@ function App() {
   return (
     <div className="quiz-app">
       <div className={`quiz-card ${currentQuestion?.category || ''}`}>
-        <h1 className="quiz-title">Kable Quiz</h1>
+        <h1 className="quiz-title">Kable Academy Assessment</h1>
 
         {!hasStarted && !showResults && (
           <div className="user-form">
-            <p className="user-form-intro">Enter your details to start the quiz.</p>
+            <p className="user-form-intro">Thank you for your interest in Kable Academy! Please complete the following assessments and your admissions coach will be in touch. These assessments will act as a gauge for your aptitude levels required for class.</p>
 
             <div className="input-row">
               <div className="input-group">
